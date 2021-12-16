@@ -12,18 +12,16 @@ const Navigation = () => {
     return (
     <header className="header">
         <div className="header__section">
-            <div className="header__logo">
-                Вип-Тур
-            </div>
-            <Link to="/" className="header__item header__button">О нас</Link>
-            <Link to="/tour" className="header__item header__button">Страны</Link>
-            <Link to="/" className="header__item header__button">Туристам</Link>
+            <Link to="/main" className="header__logo">Вип-Тур</Link>
+            <Link to="/information" target="_blank" className="header__item header__button">О нас</Link>
+            <Link to="/countries" target="_blank" className="header__item header__button">Страны</Link>
+            <Link to="/comment" target="_blank" className="header__item header__button">Оставить отзыв</Link>
         </div>
         <div className="header__section">
-            <div className="header__item header__button">+7 961 575 93 57</div>
-            <div className="header__item header__button">Магнитогорск</div>
-            {!isAuth && <button onClick={() => navigate(`/private`)}>Login</button>}
-            {isAuth && <button onClick={() => setIsAuth(false)}>Logout</button>}
+            <div className="header__logo">+7 961 575 93 57</div>
+            <div className="header__logo">Магнитогорск</div>
+            {!isAuth && <button onClick={() => navigate(`/private`)}>Войти</button>}
+            {isAuth && <button onClick={() => setIsAuth(false)}>Выйти</button>}
         </div>
         <p>EUR: {valute.EUR}</p>
         <p>USD: {valute.USD}</p>

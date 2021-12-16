@@ -21,8 +21,7 @@ const Tour = () => {
         <div>
             <h2>Tour</h2>
             <div className="card">
-                <img src={'https://travelmamas.com/wp-content/uploads/2020/04/first_state_usa_square.jpg'} width={100}/>
-                <img src={'https://travelmamas.com/wp-content/uploads/2020/04/first_state_usa_square.jpg'} width={100}/>
+                <img src={tour.url} width={100}/>
                 <h2>{tour.title}</h2>
                 <p>{tour.description}</p>
                 <span>{tour.price}р</span>

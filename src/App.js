@@ -1,5 +1,5 @@
 import './App.css';
-import {Navigate, Route, Routes} from "react-router-dom";
+import {Link, Navigate, Route, Routes} from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 import Main from "./pages/Main";
 import Tour from "./pages/Tour";
@@ -52,10 +52,9 @@ function App() {
                         <li>Магнитогорск, ул. Октябрьская, д. 21</li>
                     </ul>
                 </div>
-                <div className="header__section">
-                    <div className="footer__item footer__button"><a href="information.html" target="blank">О нас</a></div>
-                    <div className="footer__item footer__button"><a href="comment.html" target="blank">Оставить отзыв</a></div>
-                    <div className="footer__item footer__button"><a href="" target="blank">Способы оплаты</a></div>
+                <div className="footer__section">
+                    <Link to="/information" target="_blank" className="footer__item">О нас</Link>
+                    <Link to="/comment" target="_blank" className="footer__item">Оставить отзыв</Link>
                 </div>
             </footer>
         </AppContext.Provider>
