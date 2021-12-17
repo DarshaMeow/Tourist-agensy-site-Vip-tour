@@ -12,8 +12,8 @@ const Navigation = () => {
     <header className="header">
         <div className="header__section">
             <Link to="/main" className="header__logo">Вип-Тур</Link>
-            <Link to="/information" className="header__item header__button">О нас</Link>
-            <Link to="/countries" className="header__item header__button">Страны</Link>
+            <Link to="../information" className="header__item header__button">О нас</Link>
+            <Link to="../countries" className="header__item header__button">Страны</Link>
             <Link to="/comment" className="header__item header__button">Оставить отзыв</Link>
         </div>
         <div className="header__section">
