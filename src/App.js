@@ -50,7 +50,7 @@ function App() {
                     <Route path="/private" element={<Private/>}/>
                     <Route path="/send/:tourId" element={<Send/>}/>
                     <Route path="*" element={<Navigate to='/'/>}/>
-                    <Route path="../information" element={<Information/>}/>
+                    <Route path="/information" element={<Information/>}/>
                 </Routes>
             </main>
 
