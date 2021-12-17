@@ -22,8 +22,8 @@ const Navigation = () => {
             {!isAuth && <button onClick={() => navigate(`/private`)}>Войти</button>}
             {isAuth && <button onClick={() => setIsAuth(false)}>Выйти</button>}
         </div>
-        <p>EUR: {valute.EUR}</p>
         <p>USD: {valute.USD}</p>
+        <p>EUR: {valute.EUR}</p>
     </header>
     );
 };

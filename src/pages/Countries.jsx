@@ -2,7 +2,8 @@ import React, {useContext, useEffect, useState} from 'react';
 import Card from "../components/Card/Card";
 import {AppContext} from "../App";
 
-const Main = () => {
+
+const Countries = () => {
     const {tours} = useContext(AppContext)
 
     if (!tours.length) {
@@ -22,4 +23,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default Countries;

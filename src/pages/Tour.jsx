@@ -19,7 +19,7 @@ const Tour = () => {
 
     return (
         <div>
-            <h2>Tour</h2>
+            <h2>Тур</h2>
             <div className="card">
                 <img src={tour.url} width={100}/>
                 <h2>{tour.title}</h2>

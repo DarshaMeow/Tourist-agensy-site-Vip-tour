@@ -8,6 +8,8 @@ import {createContext, useEffect, useState} from "react";
 import {cards} from "./database";
 import Send from "./pages/Send";
 import axios from 'axios';
+import Countries from "./pages/Countries";
+import Information from "./pages/Information";
 
 export const AppContext = createContext(null)
 
@@ -48,6 +50,7 @@ function App() {
                     <Route path="/private" element={<Private/>}/>
                     <Route path="/send/:tourId" element={<Send/>}/>
                     <Route path="*" element={<Navigate to='/'/>}/>
+                    <Route path="/information" element={<Information/>}/>
                 </Routes>
             </main>
 
