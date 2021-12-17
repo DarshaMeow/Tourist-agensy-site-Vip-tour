@@ -2,13 +2,12 @@ import React, {useCallback, useContext, useEffect, useState} from 'react';
 import {Link, useNavigate} from "react-router-dom";
 import {AppContext} from "../../App";
 
+
 const Navigation = () => {
     const {isAuth, setIsAuth} = useContext(AppContext)
     const {valute} = useContext(AppContext)
     let navigate = useNavigate();
 
-    console.log(valute.USD)
-    console.log(valute.EUR)
     return (
     <header className="header">
         <div className="header__section">

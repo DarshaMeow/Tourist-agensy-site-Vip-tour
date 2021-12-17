@@ -2,6 +2,7 @@ import React, {useContext, useEffect, useState} from 'react';
 import Card from "../components/Card/Card";
 import {AppContext} from "../App";
 
+
 const Main = () => {
     const {tours} = useContext(AppContext)
 

@@ -7,6 +7,7 @@ import Private from "./pages/Private";
 import {createContext, useEffect, useState} from "react";
 import {cards} from "./database";
 import Send from "./pages/Send";
+import axios from 'axios';
 
 export const AppContext = createContext(null)
 
@@ -15,20 +16,25 @@ function App() {
     const [isAuth, setIsAuth] = useState(false)
     const [valute, updateState] = useState({})
 
+    const USDviuw = document.querySelector('.usd')
+    const EURviuw = document.querySelector('.eur')
+
+    const Valute = {
+        USD: "",
+        EUR: ""
+    }
+
+    axios.get ("https://www.cbr-xml-daily.ru/daily_json.js")
+        .then((res)=> {
+        valute.USD = res.data.Valute.USD.Value
+        valute.EUR = res.data.Valute.EUR.Value
+        USDviuw.textContent = Valute.USD
+        EURviuw.textContent = Valute.EUR
+    })
+
     useEffect(() => {
         const response = cards
         setTours(response)
-    }, [])
-
-
-    useEffect(()=>{
-        fetch("https://www.cbr-xml-daily.ru/daily_json.js")
-            .then(response => response.json())
-            .then(json => {
-                valute.EUR = json.Valute.EUR.Value
-                valute.USD = json.Valute.USD.Value
-                updateState(valute)
-            });
     }, [])
 
     return (
