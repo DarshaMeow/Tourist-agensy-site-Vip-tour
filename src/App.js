@@ -62,8 +62,8 @@ function App() {
                     </ul>
                 </div>
                 <div className="footer__section">
-                    <Link to="/information" target="_blank" className="footer__item">О нас</Link>
-                    <Link to="/comment" target="_blank" className="footer__item">Оставить отзыв</Link>
+                    <Link to="/information" className="footer__item">О нас</Link>
+                    <Link to="/comment" className="footer__item">Оставить отзыв</Link>
                 </div>
             </footer>
         </AppContext.Provider>
