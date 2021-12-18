@@ -15,18 +15,26 @@ const Send = () => {
 
     return (
         <form onSubmit={sendUserData}>
-            <h1>Заявка</h1>
-            <input type="text"
-                   required
-                   value={phone}
-                   onChange={(e) => setPhone(e.target.value)}
-                   placeholder="phone"/>
-            <input type="text"
-                   required
-                   value={name}
-                   onChange={(e) => setName(e.target.value)}
-                   placeholder="name"/>
-            <button type="submit">Оставить мои данные</button>
+            <h1>Заказать звонок</h1>
+            <div>
+                <input type="text"
+                    required
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                    placeholder="Номер телефона"
+                />
+            </div>
+            <div>
+                <input type="text"
+                    required
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    placeholder="ФИО"
+                />
+            </div>
+            <input type="submit"
+                   value="Отправить мои данные"
+            />
         </form>
     );
 };

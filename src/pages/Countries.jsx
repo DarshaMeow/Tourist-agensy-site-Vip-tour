@@ -1,6 +1,7 @@
 import React, {useContext, useEffect, useState} from 'react';
 import Card from "../components/Card/Card";
 import {AppContext} from "../App";
+import Comment from "./Comment";
 
 
 const Countries = () => {
