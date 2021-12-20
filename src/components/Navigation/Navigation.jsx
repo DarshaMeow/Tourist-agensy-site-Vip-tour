@@ -13,7 +13,7 @@ const Navigation = () => {
             <div className="header__section-left">
                 <div className="header__section-logo">
                     <Link to="/main" className="header__logo">Вип-Тур</Link>
-                    <img src="https://cdn-icons-png.flaticon.com/512/1598/1598420.png" width="50px" height="50px"/>
+                    <Link to="/main"><img src="https://cdn-icons-png.flaticon.com/512/1598/1598420.png" width="50px" height="50px"/></Link>
                 </div>
                 <Link to="/information" className="header__item">О нас</Link>
                 <Link to="/countries" className="header__item">Страны</Link>

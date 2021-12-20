@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import 'animate.css';
 
 
 // const Comment = () => {
@@ -26,52 +27,31 @@ class Comment extends Component {
         return (
             <div>
                 <h1>Оставьте отзыв</h1>
-                <form>
-                    <div>
-                        <label>ФИО: </label>
-                        <input
+                <form className="form">
+                    <div className="form_left">
+                        <input className="comment"
                             type="text"
-                            name="studentName"
                             placeholder="Введите ваше ФИО"
                             onChange={this.onChangeHandler}
                         />
-                    </div>
-                    <div>
-                        <label>Email: </label>
-                        <input
+                        <input className="comment"
                             type="text"
-                            name="studentName"
                             placeholder="Введите вашу почту"
                             onChange={this.onChangeHandler}
                         />
                     </div>
-                    <div>
-                        <label>Пол: </label>
-                        <label>Мужской</label>
-                        <input
-                            type="radio"
-                            name="gender"
-                            value="male"
-                            checked={this.state.gender === "male"}
-                            onChange={this.onChangeHandler}
-                        />
-                        <label>Женский</label>
-                        <input
-                            type="radio"
-                            name="gender"
-                            value="female"
-                            checked={this.state.gender === "female"}
-                            onChange={this.onChangeHandler}
-                        />
-                    </div>
-                    <div>
-                        <input type="submit"
+                    <div className="form_right">
+                        <textarea className="comment_send"
+                           type="text"
+                           placeholder="Введите ваш отзыв"
+                           onChange={this.onChangeHandler}>
+                        </textarea>
+                        <input className="button_send"
+                               type="submit"
                                value="Отправить"
                         />
                     </div>
                 </form>
-                {/*<br />*/}
-                {/*<hr />*/}
                 {/*<p>State of Component</p>*/}
                 {/*<pre>{JSON.stringify(this.state, null, 2)}</pre>*/}
             </div>
