@@ -1,5 +1,5 @@
 import './App.css';
-import {Link, Navigate, Route, Routes} from "react-router-dom";
+import {Navigate, Route, Routes} from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 import Main from "./pages/Main";
 import Tour from "./pages/Tour";
@@ -19,8 +19,8 @@ function App() {
     const [isAuth, setIsAuth] = useState(false)
     const [valute, updateState] = useState({})
 
-    const USDviuw = document.querySelector('.usd')
-    const EURviuw = document.querySelector('.eur')
+    const USDview = document.querySelector('.usd')
+    const EURview = document.querySelector('.eur')
 
     const Valute = {
         USD: "",
@@ -31,8 +31,8 @@ function App() {
         .then((res)=> {
         valute.USD = res.data.Valute.USD.Value
         valute.EUR = res.data.Valute.EUR.Value
-        USDviuw.textContent = Valute.USD
-        EURviuw.textContent = Valute.EUR
+            USDview.textContent = Valute.USD
+            EURview.textContent = Valute.EUR
     })
 
     useEffect(() => {
