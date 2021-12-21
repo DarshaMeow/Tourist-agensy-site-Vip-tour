@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
-import {useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 
 const Send = () => {
+    let navigate = useNavigate()
     const {tourId} = useParams()
     const [phone, setPhone] = useState('')
     const [name, setName] = useState('')
@@ -11,6 +12,9 @@ const Send = () => {
         localStorage.setItem('name', name)
         localStorage.setItem('phone', phone)
         localStorage.setItem('tourId',tourId)
+
+        alert('Заявка создана')
+        return navigate("/countries")
     }
 
     return (

@@ -13,13 +13,10 @@ code {
     monospace;
 }
 
-
-
 button {
-  height: 35px;
-  padding: 5px 10px;
-  font-size: 15px;
-  margin-left: 5px;
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-left: 4px;
   text-decoration: none;
   cursor: pointer;
   background-color: #689CD2;

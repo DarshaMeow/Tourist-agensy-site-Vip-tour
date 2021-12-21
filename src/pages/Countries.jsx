@@ -1,8 +1,6 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext} from 'react';
 import Card from "../components/Card/Card";
 import {AppContext} from "../App";
-import Comment from "./Comment";
-
 
 const Countries = () => {
     const {tours} = useContext(AppContext)

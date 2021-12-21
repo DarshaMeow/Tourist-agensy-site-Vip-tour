@@ -15,6 +15,8 @@ const Private = () => {
     const name = localStorage.getItem('name')
     const phone = localStorage.getItem('phone')
 
+    const comment = JSON.parse(localStorage.getItem('comment'))
+
     if (tourId && name && phone) {
         const tour = tours.find(tour => tour.id == tourId)
         return (
@@ -25,6 +27,15 @@ const Private = () => {
                     <p>{phone}</p>
                     <span>{tour.title}</span>
                 </div>
+                {comment && <div>
+                    <h3>Comment</h3>
+                    <p>{comment.name}</p>
+                    <p>{comment.email}</p>
+                    <p>{comment.text}</p>
+                    <span></span>
+                </div>}
+
+
             </div>
         );
     }
@@ -35,6 +46,13 @@ const Private = () => {
             <div>
                 Нет заявок
             </div>
+            {comment && <div>
+                <h3>Comment</h3>
+                <p>{comment.name}</p>
+                <p>{comment.email}</p>
+                <p>{comment.text}</p>
+                <span></span>
+            </div>}
         </div>
     )
 
