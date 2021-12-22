@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
 import {useNavigate, useParams} from "react-router-dom";
 import {AppContext} from "../App";
+import * as url from "url";
 
 const Tour = () => {
     const {tours} = useContext(AppContext)

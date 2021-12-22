@@ -153,7 +153,9 @@ export let cards = [
             'Турецкая одежда уже давно зарекомендовала себя. В магазинчиках можно купить джинсы, футболки и платья турецких марок. В Турции высокоразвито изготовление кожаных изделий, среди которых можно найти куртки, плащи, сумки и ремни.\n' +
             '\n' +
             'Назар бонджук — талисман от сглаза, который принято вешать у входа. Назар бонджук представлен в различных формах и размерах.',
-        url: require("../src/assets/images/Turkey.jpg"),
+        url: require("../src/assets/images/Turkey(2).jpg"),
+        url1: require("../src/assets/images/Turkey(1).jpg"),
+        url2: require("../src/assets/images/Turkey.jpg"),
     },
     {
         id: 2,
@@ -192,12 +194,12 @@ export let cards = [
             'Сувениры\n' +
             'На память о Египте можно привезти настоящий кальян (сторговаться получится до 50 долларов) или рисунок на папирусе (но никак не на его дешевой подделке в виде рисовой бумаги и банановых листьев) — такой бесценный экземпляр выторговывается до 20 долларов. А в качестве счастливого талисмана пригодится украшение с камнем-скарабеем или статуэтка черной кошки — все это не дороже 3 долларов.\n' +
             'Покупать папирусы следует только в специализированных магазинах, где выдают сертификаты качества, т.к. очень много дешевых подделок из рисовой бумаги или банановых листьев со штампованным рисунком.',
-        url: require("../src/assets/images/Egupt (1).jpg"),
-        url1: require("../src/assets/images/Egupt (2).jpg"),
-        url2: require("../src/assets/images/Egupt (3).jpg"),
-        url3: require("../src/assets/images/Egupt (4).jpg"),
-        url4: require("../src/assets/images/Egupt (5).jpg"),
-        url5: require("../src/assets/images/Egupt (6).jpg")
+        url: require("../src/assets/images/Egypt(1).jpg"),
+        url1: require("../src/assets/images/Egypt(2).jpg"),
+        url2: require("../src/assets/images/Egypt(3).jpg"),
+        url3: require("../src/assets/images/Egypt(4).jpg"),
+        url4: require("../src/assets/images/Egypt(5).jpg"),
+        url5: require("../src/assets/images/Egypt(6).jpg")
     },
     {
         id: 3,
@@ -374,9 +376,9 @@ export let cards = [
             'Креольская кукла (кукла Лима) — доминиканский сувенир, который продается на каждом шагу. Они бывают как в виде прекрасных дам в шикарных платьях, так и в виде крохотных старичков.\n' +
             '\n' +
             'В Доминикане очень популярны поделки из дерева и керамики. Туристы часто покупают различные статуэтки, маски, посуду, шкатулки и многое другое.',
-        url: require("../src/assets/images/Dominicana (1).jpg"),
-        url1: require("../src/assets/images/Dominicana (3).jpg"),
-        url2: require("../src/assets/images/Dominicana (4).jpg"),
+        url: require("./assets/images/Dominicana(1).jpg"),
+        url1: require("./assets/images/Dominicana(3).jpg"),
+        url2: require("./assets/images/Dominicana(4).jpg"),
     },
     {
         id: 4,
