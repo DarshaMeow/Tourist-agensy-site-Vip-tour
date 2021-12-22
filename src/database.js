@@ -374,11 +374,9 @@ export let cards = [
             'Креольская кукла (кукла Лима) — доминиканский сувенир, который продается на каждом шагу. Они бывают как в виде прекрасных дам в шикарных платьях, так и в виде крохотных старичков.\n' +
             '\n' +
             'В Доминикане очень популярны поделки из дерева и керамики. Туристы часто покупают различные статуэтки, маски, посуду, шкатулки и многое другое.',
-        url: require("../src/assets/images/Dominicana (5).JPG"),
-        url1: require("../src/assets/images/Dominicana (2).jpg"),
-        url2: require("../src/assets/images/Dominicana (1).jpg"),
-        url3: require("../src/assets/images/Dominicana (3).jpg"),
-        url4: require("../src/assets/images/Dominicana (4).jpg"),
+        url: require("../src/assets/images/Dominicana (1).jpg"),
+        url1: require("../src/assets/images/Dominicana (3).jpg"),
+        url2: require("../src/assets/images/Dominicana (4).jpg"),
     },
     {
         id: 4,
