@@ -18,9 +18,9 @@ const Tour = () => {
     }
 
     return (
-        <div>
+        <div className="tour-page">
             <div className="card">
-                <h2>{tour.title}</h2>
+                <h2 className="tour-h2">{tour.title}</h2>
                 <img src={tour.url} width={500}/>
                 <img src={tour.url1} width={500}/>
                 <img src={tour.url2} width={500}/>
@@ -28,6 +28,7 @@ const Tour = () => {
                 <img src={tour.url4} width={500}/>
                 <img src={tour.url5} width={500}/>
                 <p>{tour.description}</p>
+                <p>{tour.fullDescription}</p>
                 <button onClick={() => navigate(`/send/${id}`)}>Оставить заявку</button>
             </div>
         </div>
