@@ -35,6 +35,7 @@ const Navigation = () => {
                     <Link to="/information" className="header__item">О нас</Link>
                     <Link to="/countries" className="header__item">Страны</Link>
                     <Link to="/comment" className="header__item">Оставить отзыв</Link>
+                    <Link to="/private" className="header__item">Войти</Link>
                 </div>
 
             </div>
