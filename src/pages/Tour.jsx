@@ -19,12 +19,15 @@ const Tour = () => {
 
     return (
         <div>
-            <h2>Тур</h2>
             <div className="card">
-                <img src={tour.url} width={100}/>
                 <h2>{tour.title}</h2>
+                <img src={tour.url} width={500}/>
+                <img src={tour.url1} width={500}/>
+                <img src={tour.url2} width={500}/>
+                <img src={tour.url3} width={500}/>
+                <img src={tour.url4} width={500}/>
+                <img src={tour.url5} width={500}/>
                 <p>{tour.description}</p>
-                <span>{tour.price}р</span>
                 <button onClick={() => navigate(`/send/${id}`)}>Оставить заявку</button>
             </div>
         </div>

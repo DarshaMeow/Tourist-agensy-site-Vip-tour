@@ -12,7 +12,7 @@ const Countries = () => {
     }
     return (
         <div>
-            <h1>Туры</h1>
+            <h1>Страны</h1>
             {tours.map((card) => {
                 return (
                     <Card key={card.id} card={card}/>

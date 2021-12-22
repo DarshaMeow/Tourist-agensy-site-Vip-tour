@@ -42,6 +42,7 @@ const Navigation = () => {
                 <div className="valute">
                     <span>USD: {currency.USD}</span>
                     <span>EUR: {currency.EUR}</span>
+                    <span>*курс туроператора может отличаться</span>
                 </div>
             </div>
         </header>
