@@ -15,12 +15,29 @@ p {
     text-align: center;
 }
 
-
 .main {
     display: flex;
     justify-content: space-between;
-    margin-top: 115px;
     min-height: calc(100vh - 115px);
+}
+
+.main-h1 {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 100%;
+    color: white;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.search-tour {
+    margin-left: 6%;
+    position: absolute;
+    width: 100%;
+    top: 25%;
 }
 
 .valute {
@@ -32,6 +49,7 @@ p {
 
 .information {
     margin-left: 2%;
+    margin-top: 5%;
 }
 
 .main-page {
@@ -39,11 +57,11 @@ p {
     margin-top: 2%;
 }
 
-.search-tour {
-    margin-left: 6%;
-}
-
 /*Comment css start*/
+
+.comment_page {
+    margin-top: 5%;
+}
 
 .form {
     display: flex;

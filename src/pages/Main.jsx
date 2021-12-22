@@ -13,7 +13,8 @@ const Main = () => {
             {/*        <li>Вьетнам</li>*/}
             {/*    </ul>*/}
             {/*</div>*/}
-            <h1>Лучшие туры по России</h1>
+            <h1 className="main-h1">Лучшие туры по России</h1>
+            <img className="main-img" src="https://img2.goodfon.ru/wallpaper/nbig/5/ed/boeing-samolet-nebo-4479.jpg" />
             <div className="search-tour">
                 <script type="text/javascript" charSet="utf-8"
                         src="https://stells.info/assets/js/partner.fire.js"></script>

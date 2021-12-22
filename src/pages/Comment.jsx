@@ -22,8 +22,8 @@ const Comment = () => {
     }
 
     return (
-        <div>
-            <h1>Оставьте отзыв</h1>
+        <div className="comment_page">
+            <h1 className="comment-h1">Оставьте отзыв</h1>
             <form className="form" onSubmit={handleSubmit}>
                 <div className="form_left">
                     <input className="comment"
