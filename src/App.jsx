@@ -1,18 +1,18 @@
 import React, {createContext, useEffect, useState} from "react";
+import {Navigate, Route, Routes} from "react-router-dom";
 import './App.css';
-import Header from "./Components/Header/header";
+import {cards} from "./database";
+import Comment from "./Pages/Comment/Comment";
 import TopPart from "./Components/Top-section/TopPart";
 import RecPlaces from "./Components/Rec-places/RecPlaces";
+import Search from "./Components/Search/Search";
 import VisitorForm from "./Components/Visitor-Form/VisitorForm";
 import Footer from "./Components/Footer/Footer";
-import Search from "./Components/Search";
-import {Navigate, Route, Router, Routes} from "react-router-dom";
+import Header from "./Components/Header/Header";
 import Countries from "./Pages/Countries/Countries";
-import {cards} from "./database";
 import Tour from "./Pages/Countries/Tour";
 import Information from "./Pages/Information/Information";
 import Login from "./Pages/Authorization/Login";
-import Comment from "./Pages/Comment/Comment";
 
 export const AppContext = createContext(null)
 
@@ -20,11 +20,11 @@ export const AppContext = createContext(null)
 function Main() {
     return (
         <div>
-            <TopPart />
-            <RecPlaces />
+            <TopPart/>
+            <RecPlaces/>
             <Search/>
-            <VisitorForm />
-            <Footer />
+            <VisitorForm/>
+            <Footer/>
         </div>
     );
 }
@@ -41,7 +41,7 @@ function App() {
     return (
         <AppContext.Provider value={{tours, isAuth, setIsAuth}}>
             <div className="App">
-                <Header />
+                <Header/>
                 <Routes>
                     <Route path="/" element={<Main/>}/>
                     <Route path="*" element={<Navigate to='/'/>}/>

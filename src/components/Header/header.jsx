@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Destination from "./Destination/Destination";
-import "./header.style.css";
+import "./Header.style.css";
 import Valute from "../Valute/Valute";
 
 const LeftSide = ({ click, setClick }) => {

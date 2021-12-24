@@ -153,9 +153,8 @@ export let cards = [
             'Турецкая одежда уже давно зарекомендовала себя. В магазинчиках можно купить джинсы, футболки и платья турецких марок. В Турции высокоразвито изготовление кожаных изделий, среди которых можно найти куртки, плащи, сумки и ремни.\n' +
             '\n' +
             'Назар бонджук — талисман от сглаза, который принято вешать у входа. Назар бонджук представлен в различных формах и размерах.',
-        url: require("../src/images/Turkey(2).jpg"),
-        url1: require("../src/images/Turkey(1).jpg"),
-        url2: require("../src/images/Turkey.jpg"),
+        url: 'https://www.tourdom.ru/upload/iblock/6b4/6b4c771375c7bf6a07ae7b9493c59dd6.jpg',
+        url1: 'https://img-cdn.tinkoffjournal.ru/i/U4DI0lfziGmmWTZ6apL_d2ZrBWym4P6X8Yw_aGtwb_c/w:1200/aHR0cHM6Ly9pbWct/Y2RuLnRpbmtvZmZq/b3VybmFsLnJ1Ly0v/ZmFxLXR1cmtleV9t/YWluLnR0b3JqeXV4/YWJsbS5qcGc'
     },
     {
         id: 2,
@@ -194,12 +193,8 @@ export let cards = [
             'Сувениры\n' +
             'На память о Египте можно привезти настоящий кальян (сторговаться получится до 50 долларов) или рисунок на папирусе (но никак не на его дешевой подделке в виде рисовой бумаги и банановых листьев) — такой бесценный экземпляр выторговывается до 20 долларов. А в качестве счастливого талисмана пригодится украшение с камнем-скарабеем или статуэтка черной кошки — все это не дороже 3 долларов.\n' +
             'Покупать папирусы следует только в специализированных магазинах, где выдают сертификаты качества, т.к. очень много дешевых подделок из рисовой бумаги или банановых листьев со штампованным рисунком.',
-        url: require("../src/images/Egypt(1).jpg"),
-        url1: require("../src/images/Egypt(2).jpg"),
-        url2: require("../src/images/Egypt(3).jpg"),
-        url3: require("../src/images/Egypt(4).jpg"),
-        url4: require("../src/images/Egypt(5).jpg"),
-        url5: require("../src/images/Egypt(6).jpg")
+        url: 'https://tourweek.ru/storage/web/source/uploads/ckeditor/anons117.jpg',
+        url1: 'https://kidpassage.com/images/publications/chto-brat-s-soboy-v-egipet-k-s-umom/cover_original.jpeg',
     },
     {
         id: 3,
@@ -376,9 +371,8 @@ export let cards = [
             'Креольская кукла (кукла Лима) — доминиканский сувенир, который продается на каждом шагу. Они бывают как в виде прекрасных дам в шикарных платьях, так и в виде крохотных старичков.\n' +
             '\n' +
             'В Доминикане очень популярны поделки из дерева и керамики. Туристы часто покупают различные статуэтки, маски, посуду, шкатулки и многое другое.',
-        url: require("./images/Dominicana(1).jpg"),
-        url1: require("./images/Dominicana(3).jpg"),
-        url2: require("./images/Dominicana(4).jpg"),
+        url: 'https://rusunion.com/img/news/2020/05/30/dominikana-gotovitsya-prinyat-pervyh-turistov-blog.jpg',
+        url1: 'https://toursdominicana.ru/wp-content/uploads/2020/06/oceandominicana-karibskoe-scaled.jpg'
     },
     {
         id: 4,
@@ -395,20 +389,23 @@ export let cards = [
     {
         id: 6,
         title: 'Кипр',
-        description: 'Таиланд — страна, путешествие по которой оставит в памяти только лучшие воспоминания. Туры в Таиланд — это огромное количество буддийских храмов, коралловых рифов, превосходных цветов, экзотических фруктов и благовоний. Здесь бережно хранят древние буддийские традиции и культуру и в то же время быстро реагируют на изменения в современном мире.',
-        url: 'https://static.irk.ru/media/img/site/gallery/30529/0497cc45-4cf2-4a07-bbdb-e32e2dbeba7f_jpg_800x1000_q85.jpg'
+        description: 'Островное государство на Среднем Востоке в восточной части Средиземного моря.',
+        url: "https://n1s1.hsmedia.ru/05/84/87/0584879afeb209e7d11a7169b25f8ee0/500x334_0xac120003_4241120701615799385.jpg",
+        url1: 'https://www.grekomania.ru/images/places/19/cyprus/big/88126_Cyprus-space-photo.jpg'
     },
     {
         id: 7,
         title: 'Куба',
-        description: 'Таиланд — страна, путешествие по которой оставит в памяти только лучшие воспоминания. Туры в Таиланд — это огромное количество буддийских храмов, коралловых рифов, превосходных цветов, экзотических фруктов и благовоний. Здесь бережно хранят древние буддийские традиции и культуру и в то же время быстро реагируют на изменения в современном мире.',
-        url: 'https://static.irk.ru/media/img/site/gallery/30529/0497cc45-4cf2-4a07-bbdb-e32e2dbeba7f_jpg_800x1000_q85.jpg'
+        description: 'Островное государство в Латинской Америке, в Карибском бассейне.',
+        url: 'https://union-travel.ru/assets/images/stati/2017-12/2017-12_article-05_img-01-min.jpg',
+        url1: 'https://static.r-express.ru/images/%D0%94%D0%B5%D0%BD%D1%8C%201(12).jpg'
     },
     {
         id: 8,
         title: 'Греция',
-        description: 'Таиланд — страна, путешествие по которой оставит в памяти только лучшие воспоминания. Туры в Таиланд — это огромное количество буддийских храмов, коралловых рифов, превосходных цветов, экзотических фруктов и благовоний. Здесь бережно хранят древние буддийские традиции и культуру и в то же время быстро реагируют на изменения в современном мире.',
-        url: 'https://static.irk.ru/media/img/site/gallery/30529/0497cc45-4cf2-4a07-bbdb-e32e2dbeba7f_jpg_800x1000_q85.jpg'
+        description: 'Государство в Южной Европе, на границе с Малой Азией.',
+        url: 'https://kidpassage.com/images/publications/gretsiya-oktyabre-otdyh-pogoda/gretsiya-oktyabre-otdyh-pogoda-photo1_904546334.jpg',
+        url1: 'https://rutraveller.ru/icache/place/1/506/007/15067_603x354.jpg'
     }
 ]
 

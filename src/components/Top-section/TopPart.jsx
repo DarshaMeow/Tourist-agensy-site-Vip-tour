@@ -8,9 +8,6 @@ const TopPart = () => {
           Исследуйте самые красивые места планеты с нами
         </h1>
         <p>Мы сделаем ваш отдых незабываемым!</p>
-        <button>
-          Исследовать <i className="far fa-chevron-right"></i>
-        </button>
       </div>
       <div className="video-area">
         <div className="video">

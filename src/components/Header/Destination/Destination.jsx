@@ -1,4 +1,4 @@
-import "./destination.style.css";
+import "./Destination.style.css";
 import CountryCard from "../../Card/CountryCard";
 import {useContext} from "react";
 import {AppContext} from "../../../App";

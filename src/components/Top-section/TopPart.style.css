@@ -27,23 +27,6 @@
   font-weight: 300;
 }
 
-.top-part-title > button {
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer !important;
-  background: rgba(0, 0, 0, 0.1);
-  color: #fffffe;
-  border: 2px solid #6b6b6b;
-  border-radius: 20px;
-  padding: 15px 50px;
-  margin-top: 10px;
-  transition: all 0.3s ease-in-out;
-}
-
-.top-part-title > button:hover {
-  background: rgba(0, 0, 0, 0.6);
-}
-
 .top-part .video-area {
   width: 100%;
   display: flex;
@@ -56,24 +39,6 @@
 .top-part .video-area > .video > .video-play > i {
   font-size: 28px;
 }
-
-/*.top-part .video-area > .video {*/
-/*  display: flex;*/
-/*  align-items: center;*/
-/*  justify-content: center;*/
-/*  width: 60%;*/
-/*  height: 480px;*/
-/*  padding: 10px 4px;*/
-/*  background: rgba(255, 255, 255, 0.2);*/
-/*  backdrop-filter: blur(20px);*/
-/*  border-radius: 43px;*/
-/*}*/
-
-/*.top-part .video-area > .video > iframe {*/
-/*  border-radius: 20px;*/
-/*  width: 90%;*/
-/*  height: 460px;*/
-/*}*/
 
 @media only screen and (max-width: 600px) {
   .top-part {
@@ -99,11 +64,6 @@
   .top-part-title > p {
     font-size: 1.2rem;
     font-weight: 400;
-  }
-
-  .top-part-title > button {
-    font-size: 1rem;
-    padding: 0.8rem 1.4rem;
   }
 
   .top-part .video-area {

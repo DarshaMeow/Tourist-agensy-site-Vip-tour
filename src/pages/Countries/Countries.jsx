@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import {AppContext} from "../../App";
+import Header from "../../Components/Header/Header";
 import Card from "../../Components/Card/Card";
-import Header from "../../Components/Header/header";
 
 const Countries = () => {
     const {tours} = useContext(AppContext)
@@ -12,7 +12,7 @@ const Countries = () => {
         )
     }
     return (
-        <div>
+        <div className="countries-page">
             <Header/>
             <h1>Страны</h1>
             {tours.map((card) => {
