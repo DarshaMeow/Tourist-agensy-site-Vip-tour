@@ -18,7 +18,6 @@ const Navigation = () => {
             })
     }, [])
 
-
     return (
         <header className="header">
             <div className="header__section-left">

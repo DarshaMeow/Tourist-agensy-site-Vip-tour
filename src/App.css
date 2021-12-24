@@ -137,3 +137,23 @@ p {
 .tour-h2 {
     text-align: center;
 }
+.contact{
+    padding: 6% 0 2% 0;
+}
+.contact-text h3{
+    color:#393939;
+    font-size:2.5em;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom:0.5em;
+    margin-bottom:10px;
+    font-weight:500;
+}
+.contact-text p{
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.contact-form{
+    margin-top:3em;
+}
