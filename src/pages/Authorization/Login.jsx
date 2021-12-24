@@ -1,11 +1,14 @@
 import React, {useContext, useState} from 'react';
-import {AppContext} from "../App";
-import {users} from "../database";
+import {AppContext} from "../../App";
+import {users} from "../../database";
+import {useNavigate} from "react-router-dom";
+import "./Authorization.css";
 
 const Login = () => {
     const {setIsAuth} = useContext(AppContext)
     const [login, setLogin] = useState('')
     const [password, setPassword] = useState('')
+    let navigate = useNavigate()
 
     function handleLogin(e) {
         e.preventDefault()
@@ -17,11 +20,12 @@ const Login = () => {
             return alert('error password!')
         }
         setIsAuth(true)
+        navigate('/private')
         console.log("handleLogin", isUser)
     }
 
     return (
-        <div>
+        <div className="authorization">
             <h1>Авторизация</h1>
             <form onSubmit={handleLogin}>
                 <input type="text"

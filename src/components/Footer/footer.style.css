@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer .links a {
+  color: #a5a5a5;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.footer .links a:hover {
+  color: #fff;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer h1 {
+    font-size: 1.2rem;
+  }
+
+  .footer .links a {
+    font-size: 1rem;
+  }
+
+  .footer .links a i {
+    font-size: 1.2rem;
+  }
+}

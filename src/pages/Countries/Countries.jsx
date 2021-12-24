@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
-import Card from "../components/Card/Card";
-import {AppContext} from "../App";
+import {AppContext} from "../../App";
+import Card from "../../Components/Card/Card";
+import Header from "../../Components/Header/header";
 
 const Countries = () => {
     const {tours} = useContext(AppContext)
@@ -12,6 +13,7 @@ const Countries = () => {
     }
     return (
         <div>
+            <Header/>
             <h1>Страны</h1>
             {tours.map((card) => {
                 return (

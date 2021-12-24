@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import {useNavigate, useParams} from "react-router-dom";
-import {AppContext} from "../App";
+import {AppContext} from "../../App";
 import * as url from "url";
 
 const Tour = () => {
@@ -37,3 +37,4 @@ const Tour = () => {
 };
 
 export default Tour;
+

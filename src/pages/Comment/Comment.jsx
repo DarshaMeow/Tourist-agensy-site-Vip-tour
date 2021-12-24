@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import 'animate.css';
+import "./Comment.css";
 
 const Comment = () => {
 
@@ -22,9 +22,9 @@ const Comment = () => {
     }
 
     return (
-        <div className="comment_page">
+        <div className="comment-page">
             <h1 className="comment-h1">Оставьте отзыв</h1>
-            <form className="form" onSubmit={handleSubmit}>
+            <form className="comment-form" onSubmit={handleSubmit}>
                 <div className="form_left">
                     <input className="comment"
                            type="text"
