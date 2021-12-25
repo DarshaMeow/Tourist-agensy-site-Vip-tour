@@ -2,17 +2,17 @@ import React, {createContext, useEffect, useState} from "react";
 import {Navigate, Route, Routes} from "react-router-dom";
 import './App.css';
 import {cards} from "./database";
-import Comment from "./Pages/Comment/Comment";
-import TopPart from "./Components/Top-section/TopPart";
-import RecPlaces from "./Components/Rec-places/RecPlaces";
-import Search from "./Components/Search/Search";
-import VisitorForm from "./Components/Visitor-Form/VisitorForm";
-import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
-import Countries from "./Pages/Countries/Countries";
-import Tour from "./Pages/Countries/Tour";
-import Information from "./Pages/Information/Information";
-import Login from "./Pages/Authorization/Login";
+import TopPart from "./components/Top-section/TopPart";
+import RecPlaces from "./components/Rec-places/RecPlaces";
+import Search from "./components/Search/Search";
+import VisitorForm from "./components/Visitor-Form/VisitorForm";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Countries from "./pages/Countries/Countries";
+import Tour from "./pages/Countries/Tour";
+import Information from "./pages/Information/Information";
+import Login from "./pages/Authorization/Login";
+import Comment from "./pages/Comment/Comment";
 
 export const AppContext = createContext(null)
 

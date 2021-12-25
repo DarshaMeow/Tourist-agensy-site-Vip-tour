@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import {AppContext} from "../../App";
-import Header from "../../Components/Header/Header";
-import Card from "../../Components/Card/Card";
+import Header from "../../components/Header/Header";
+import Card from "../../components/Card/Card";
 
 const Countries = () => {
     const {tours} = useContext(AppContext)
